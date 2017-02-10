@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Events</title>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width=device-width, inital-scale=1">
+      <link rel = "stylesheet" href = "css/normalize.css"> 
+      <link rel = "stylesheet" href = "css/main_7.css">     <!--300px--> 
+      <link rel = "stylesheet" href = "css/main_6.css">     <!--468px--> 
+      <link rel = "stylesheet" href = "css/main_5.css">     <!--502px--> 
+      <link rel = "stylesheet" href = "css/main_4.css">     <!--532px-->
+      <link rel = "stylesheet" href = "css/main_3.css">     <!--570px-->
+      <link rel = "stylesheet" href = "css/main_2.css">     <!--618px-->
+      <link rel = "stylesheet" href = "css/main_1.css">     <!--730px-->
+      <link rel = "stylesheet" href = "css/main.css">       <!--944px-->
+      <link rel = "stylesheet" href = "css/main2.css">      <!--1101px-->
+      <link rel = "stylesheet" href = "css/main3.css">      <!--1400px-->
+       
+      <script src = "jquery.js"></script>
+      <script src = "js/underscore-min.js"></script> 
+      <script src = "js/throttle.min.js"></script> 
+     
+   </head>
+   <body>
+    
+      <div id = "wrapper1" class = "scrollTo">         
+               
+              <header class = "header">
+
+                   <nav class = "mynav">
+
+                        <ul class = "firstul clearfix">
+                            <li class = "clearfix"><a href = "">ENG</a></li>
+                            <li class = "sans clearfix"><a class = "activee" href = "">ქარ</a></li>
+                        </ul>
+
+                        <img src = "images/headerxazi.png">
+
+                        <ul class = "secondul clearfix">
+                            <li class = "secondulfirstli"><a href = "https://facebook.com"><img src = "images/fbmenuicon.png"></a></li>
+                            <li class = "secondulsecondli"><a href = "https://twitter.com"><img src = "images/twittermenuicon.png"></a></li>
+                            <li><a href = "https://google.com"><img src = "images/gmailmenuicon1.png"></a></li>
+                        </ul>
+
+                   </nav>
+                     
+              </header>
+
+              <section class = "main">
+                  <h1 data-scroll-speed = "3">იპოვე ახალი ივენთი</h1>
+
+                  <nav class = "mainnav">
+                      <ul class = "mainnavul clearfix">
+                          <li><a href = "">ღონისძიების სახელი <img src = "images/mainsectionarrow.png"></a>
+                            <ul class = "shidaul">
+                              <li><a href = "">კონცერტი</a></li>
+                              <li><a href = "">თეატრი</a></li>
+                              <li><a href = "">გამოფენა</a></li>
+                            </ul>
+                          </li>
+                          <li class = "meore"><a href = "">კატეგორია <img src = "images/mainsectionarrow.png"></a>
+                             <ul class = "shidaul"> 
+                               <li><a class = "sha" href = "">მუსიკა</a></li>
+                               <li><a href = "">განათლება</a></li>
+                               <li><a href = "">ხელოვნება</a></li>
+                               <li><a href = "">საკვები</a></li>
+                               <li><a href = "">დასვენება</a></li>
+                               <li><a href = "">სპორტი</a></li>
+                             </ul>
+                          </li>
+                          <li><a href = "">დრო <img src = "images/mainsectionarrow.png"></a>
+                             <ul class = "shidaul">
+                                <li><a href = "">დღეს</a></li>
+                                <li><a href = "">ხვალ</a></li>
+                                <li><a href = "">ამ კვირაში</a></li>
+                                <li><a href = "">შაბათ-კვირა</a></li>
+                                <li><a href = "">შემდეგი კვირა</a></li>
+                                <li><a href = "">შემდეგი თვე</a></li> 
+                             </ul>
+                          </li>
+                          <li><form method = "POST"><input type = "text" placeholder = "ძებნა"></form></li>
+                      </ul>
+                  </nav>
+
+                </section>
+
+                <footer class = "myfooter">
+                      <section class = "footersection">
+                           <div class = "populareventsf">
+                               <p class = "popularp">
+                                 პოპულარული ივენთები
+                               </p>
+                               <img src = "greyarrow.png">
+                           </div>
+                           <div class = "actualevent">
+                               <h3>Tbilisi Flea Market</h3>
+                               <h3>JUN 25</h3>
+                           </div>
+
+                      </section>
+                </footer>
+                 
+      </div>
+      <section class = "innerwrapper">
+           
+         <section class = "innerwrappersection">
+           <nav class = "innerwrappernav">
+              <ul class = "innerwrapperul">
+                 <li><a class = "wrapper1link" href = "">მთავარი გვერდი<div></div></a></li>
+                 <li><a class = "wrapper4link" href = "">ივენთის დამატება<div></div></a></li>
+                 <li><a class = "wrapper2link" href = "">პოპულარული ივენთები<div></div></a></li>
+                 <li><a class = "wrapper3link" href = "">კატეგორიები<div></div></a></li>
+                 <li><a class = "wrapper4link" href = "">კონტაქტი<div></div></a></li>
+              </ul>
+           </nav>
+        </section>
+
+        <footer class = "innerwrapperfooter">
+            <nav class = "innerwrapperfooternav">
+              <ul class = "innerwrapperfooterul clearfix">
+                <li><a class = "fc activeeee" href = "">ქარ</a></li>
+                <li><a href = "">ENG</a></li>
+              </ul>
+              <img src = "images/menuclickfooterxazi.png">
+
+              <ul class = "innerwrapperfooterul2 clearfix">
+                <li><a href = "https://facebook.com"><img src = "images/clickmenufooterfbicon.png"></a></li>
+                <li><a href = "https://twitter.com"><img src = "images/menuclickfootertwittericon.png"></a></li>
+                <li><a href = "https://google.com"><img src = "images/menuclickfootergmailicon.png"></a></li>
+              </ul>
+            </nav>
+ 
+        </footer>
+      </section>
+
+      <div id="nav-icon4" class = "close">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class = "scrollTo"></div>
+      <div id = "wrapper2" class = "scrollTo">
+           <header class = "populareventsheader clearfix">           
+              <nav class = "populareventsnav clearfix">                   
+                   <ul class = "populareventsul clearfix">
+                       <li class = "musika">კატეგორია: <a href = "#">მუსიკა</a>
+                           <ul class = "populareventsshidaul">
+                              <li><a href = "#">მუსიკა</a></li>
+                              <li><a href = "#">ხელოვნება</a></li>
+                              <li><a href = "#">საკვები</a></li>
+                              <li><a href = "#">სპორტი</a></li>
+                              <li><a href = "#">დასვენება</a></li>
+                              <li><a href = "#">განათლება</a></li>
+                           </ul>
+                       </li>
+                       <li class = "tarigi">თარიღი: <a href = "#">ყველა</a>
+                            <ul class = "populareventsshidaul2">
+                               <li><a href = "#">ყველა</a></li>
+                               <li><a href = "#">დღეს</a></li>
+                               <li><a href = "#">ხვალ</a></li>
+                               <li><a href = "#">შემდეგი თვე</a></li>
+                               <li><a href = "#">გუშინ</a></li>                       
+                            </ul>
+                       </li>
+                   </ul>
+              </nav>  
+             </header>    
+
+             <section class = "populareventssection clearfix">
+               
+                <div class = "populareventssectioninner">
+                   <div class = "popularevent1">
+                      
+                         <div class = "containercontainer"><div class = "background-container"><a href = "eventnew2/event.html"></a></div></div>
+                         <a href = "../eventnew2/event.html"> <div class = "populareventinner">
+                           
+                           <div class = "psection1shida1shida clearfix">
+                             <p class = "psheader">Tbilisi Flea Market</p>
+                                 <p class = "psheader2">JUN 25</p>
+                                 <ul class = "psul">
+                                   <li>26 Jun at 12:00-18:00</li>
+                                   <li>Dedaenis Bagi, Tbilisi, Georgia</li>
+                                 </ul>
+                                 <p class = "shesaxeb">ივენთის შესახებ</p>
+                             </a>
+                             <ul class = "psul2 clearfix">
+                                <li><a href = "https://facebook.com"><img src = "images/psectionfb.png"></a></li>
+                                <li><a href = "https://twitter.com"><img src = "images/psectiontwitter.png"></a></li>
+                                <li><a href = "https://google.com"><img src = "images/psectiongmail.png"></a></li>
+                            </ul>
+                           </div>
+                      </div></a>
+
+                       
+                   </div>
+                 
+                   <div class = "popularevent2">
+
+                      <div class = "containercontainer"> <div class = "background-container"><a href = "eventnew2/event.html"></a></div></div>
+                      <div class = "populareventinner">
+                           <div class = "psection1shida1shida clearfix">
+                             <a href = "../eventnew2/event.html">
+                                 <p class = "psheader">Tbilisi Flea Market</p>
+                                 <p class = "psheader2">JUN 25</p>
+                                 <ul class = "psul">
+                                   <li>26 Jun at 12:00-18:00</li>
+                                   <li>Dedaenis Bagi, Tbilisi, Georgia</li>
+                                 </ul>
+                                 <p class = "shesaxeb">ივენთის შესახებ</p>
+                             </a>
+                             <ul class = "psul2 clearfix">
+                                <li><a href = "https://facebook.com"><img src = "images/psectionfb.png"></a></li>
+                                <li><a href = "https://twitter.com"><img src = "images/psectiontwitter.png"></a></li>
+                                <li><a href = "https://google.com"><img src = "images/psectiongmail.png"></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                   </div>
+                   <div class = "popularevent3">
+
+                      <div class = "containercontainer"> <div class = "background-container"><a href = "eventnew2/event.html"></a></div></div>
+                      <div class = "populareventinner">
+                           <div class = "psection1shida1shida clearfix">
+                             <a href = "../eventnew2/event.html">
+                                 <p class = "psheader">Tbilisi Flea Market</p>
+                                 <p class = "psheader2">JUN 25</p>
+                                 <ul class = "psul">
+                                   <li>26 Jun at 12:00-18:00</li>
+                                   <li>Dedaenis Bagi, Tbilisi, Georgia</li>
+                                 </ul>
+                                 <p class = "shesaxeb">ივენთის შესახებ</p>
+                             </a>
+                             <ul class = "psul2 clearfix">
+                                <li><a href = "https://facebook.com"><img src = "images/psectionfb.png"></a></li>
+                                <li><a href = "https://twitter.com"><img src = "images/psectiontwitter.png"></a></li>
+                                <li><a href = "https://google.com"><img src = "images/psectiongmail.png"></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                   </div>
+
+                </div>
+
+                <div class = "populareventssectioninner2">
+
+                   <div class = "popularevent1">
+
+                     <div class = "containercontainer"><div class = "background-container"><a href = "eventnew2/event.html"></a></div></div>
+                     <div class = "populareventinner">
+                          <div class = "psection1shida1shida clearfix">
+                             <a href = "../eventnew2/event.html">
+                                 <p class = "psheader">Tbilisi Flea Market</p>
+                                 <p class = "psheader2">JUN 25</p>
+                                 <ul class = "psul">
+                                   <li>26 Jun at 12:00-18:00</li>
+                                   <li>Dedaenis Bagi, Tbilisi, Georgia</li>
+                                 </ul>
+                                 <p class = "shesaxeb">ივენთის შესახებ</p>
+                             </a>
+                             <ul class = "psul2 clearfix">
+                                <li><a href = "https://facebook.com"><img src = "images/psectionfb.png"></a></li>
+                                <li><a href = "https://twitter.com"><img src = "images/psectiontwitter.png"></a></li>
+                                <li><a href = "https://google.com"><img src = "images/psectiongmail.png"></a></li>
+                            </ul>
+                        </div>
+                     </div>
+                   </div>
+                   <div class = "popularevent2">
+
+                     <div class = "containercontainer"><div class = "background-container"><a href = "eventnew2/event.html"></a></div></div>
+                     <div class = "populareventinner">
+                          <div class = "psection1shida1shida clearfix">
+                             <a href = "../eventnew2/event.html">
+                                 <p class = "psheader">Tbilisi Flea Market</p>
+                                 <p class = "psheader2">JUN 25</p>
+                                 <ul class = "psul">
+                                   <li>26 Jun at 12:00-18:00</li>
+                                   <li>Dedaenis Bagi, Tbilisi, Georgia</li>
+                                 </ul>
+                                 <p class = "shesaxeb">ივენთის შესახებ</p>
+                             </a>
+                             <ul class = "psul2 clearfix">
+                                <li><a href = "https://facebook.com"><img src = "images/psectionfb.png"></a></li>
+                                <li><a href = "https://twitter.com"><img src = "images/psectiontwitter.png"></a></li>
+                                <li><a href = "https://google.com"><img src = "images/psectiongmail.png"></a></li>
+                            </ul>
+                        </div>
+                     </div>
+                   </div>
+                   <div class = "popularevent3">
+
+                     <div class = "containercontainer"><div class = "background-container"><a href = "eventnew2/event.html"></a></div></div>
+                     <div class = "populareventinner">
+                          <div class = "psection1shida1shida clearfix">
+                             <a href = "../eventnew2/event.html">
+                                 <p class = "psheader">Tbilisi Flea Market</p>
+                                 <p class = "psheader2">JUN 25</p>
+                                 <ul class = "psul">
+                                   <li>26 Jun at 12:00-18:00</li>
+                                   <li>Dedaenis Bagi, Tbilisi, Georgia</li>
+                                 </ul>
+                                 <p class = "shesaxeb">ივენთის შესახებ</p>
+                             </a>
+                             <ul class = "psul2 clearfix">
+                                <li><a href = "https://facebook.com"><img src = "images/psectionfb.png"></a></li>
+                                <li><a href = "https://twitter.com"><img src = "images/psectiontwitter.png"></a></li>
+                                <li><a href = "https://google.com"><img src = "images/psectiongmail.png"></a></li>
+                            </ul>
+                        </div>
+                     </div>
+                   </div>
+
+                </div>
+             </section>
+  
+     </div>
+
+      <div id = "wrapper3" class = "clearfix scrollTo">
+         <a class = "m link" href = "" id = "მუსიკა">
+            <div class = "music">
+             
+                <div class = "musicshida">
+                     <h1>მუსიკა<div></div></h1>
+                     <!--<img src = "images/musicxazi.png">-->
+                     <p>დახასიათება რა შედის ამ კატეგორიაში კონცერტები, ფესტივალები</p>
+                </div>            
+                
+
+                <div class = "music2">
+             
+                  <div class = "musicshida2">
+                       <h1>მუსიკა<div></div></h1>
+                       <!--<img src = "images/musicxazi.png">-->
+                       <p>დახასიათება რა შედის ამ კატეგორიაში კონცერტები, ფესტივალები</p>
+                  </div>            
+            
+                </div>
+            </div>            
+         </a>
+
+         <a class = "x link" href = "" id = "ხელოვნება">              
+          <div class = "xelovneba">
+              <div class = "xelovnebashida">
+                     <h1>ხელოვნება<div></div></h1>
+                     <!--<img src = "images/xelovnebaxazi.png">-->
+                     <p>კინო ფესტივალები, თეატრალური დადგმები, გამოფენები და კონცერტები</p>
+              </div> 
+
+              <div class = "xelovneba2">
+                  <div class = "xelovnebashida2">
+                         <h1>ხელოვნება<div></div></h1>
+                         <!--<img src = "images/xelovnebaxazi.png">-->
+                         <p>კინო ფესტივალები, თეატრალური დადგმები, გამოფენები და კონცერტები</p>
+                  </div>
+              </div>
+            <a href = "">
+              <div id="nav-icon42" class = "close">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+          </div>
+
+         </a>
+
+         <a class = "s link" href = "" id = "საკვები">     
+          <div class = "sakvebi">
+               <div class = "sakvebishida">
+                     <h1>საკვები<div></div></h1>
+                     <!--<img src = "images/xelovnebaxazi.png">-->
+                     <p>ტურები, ექსკურსიები, აქტივობები ბუნებაში</p>
+               </div>
+               <div class = "sakvebi2">
+                 <div class = "sakvebishida2">
+                       <h1>საკვები<div></div></h1>
+                       <!--<img src = "images/xelovnebaxazi.png">-->
+                       <p>ტურები, ექსკურსიები, აქტივობები ბუნებაში</p>
+                 </div>
+               </div>                
+          </div>
+         </a>
+
+         <a class = "sp link" href = "" id = "სპორტი">             
+          <div class = "sporti">
+                <div class = "sportishida">
+                     <h1>სპორტი<div></div></h1>
+                     <!--<img src = "images/xelovnebaxazi.png">-->
+                     <p>დახასიათება რა შედის ამ კატეგორიაში სპორტული აქტივობები</p>
+                </div>
+
+                <div class = "sporti2">
+                    <div class = "sportishida2">
+                         <h1>სპორტი<div></div></h1>
+                         <!--<img src = "images/xelovnebaxazi.png">-->
+                         <p>დახასიათება რა შედის ამ კატეგორიაში სპორტული აქტივობები</p>
+                    </div>
+                </div>
+          </div>
+         </a>
+
+         <a class = "g link" href = "" id = "განათლება">
+          <div class = "ganatleba">
+                <div class = "ganatlebashida">
+                     <h1>განათლება<div></div></h1>
+                     <!--<img src = "images/xelovnebaxazi.png">-->
+                     <p>ტურები, ექსკურსიები, აქტივობები ბუნებაში</p>
+                </div>
+
+                <div class = "ganatleba2">
+                    <div class = "ganatlebashida2">
+                         <h1>განათლება<div></div></h1>
+                         <!--<img src = "images/xelovnebaxazi.png">-->
+                         <p>ტურები, ექსკურსიები, აქტივობები ბუნებაში</p>
+                    </div>
+                </div>
+          </div>
+         </a>
+
+         <a class = "d link" href = "" id = "დასვენება">  
+          <div class = "dasveneba">
+                 <div class = "dasvenebashida">
+                     <h1>დასვენება<div></div></h1>
+                     <!--<img src = "images/xelovnebaxazi.png">-->
+                     <p>ტურები, ექსკურსიები, აქტივობები ბუნებაში</p>
+                </div>
+
+                <div class = "dasveneba2">
+                   <div class = "dasvenebashida2">
+                       <h1>დასვენება<div></div></h1>
+                       <!--<img src = "images/xelovnebaxazi.png">-->
+                       <p>ტურები, ექსკურსიები, აქტივობები ბუნებაში</p>
+                  </div>
+                </div>
+          </div>
+         </a>
+   
+         <div class = "wrapper3inner">
+              
+              <section class = "wrapper3innersection">
+                       <nav class = "wrapper3innernav">
+                            <ul class = "wrapper3innerul">
+                                <li><a href = "">თეატრი<div></div></a></li>
+                                <li><a href = "">შეხვედრა<div></div></a></li>
+                                <li><a href = "">მაღაზიის გახსნა<div></div></a></li>
+                                
+                                <li><a href = "">პრეზენტაცია<div></div></a></li>
+                                <li><a href = "">ლექცია<div></div></a></li>
+                            </ul>
+
+                            <div id="nav-icon43" class = "open">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                            </div>
+                       </nav>
+
+              </section>
+         </div>
+         
+      </div>      
+    
+      <div id = "wrapper4" class = "scrollTo">
+           <div class = "wrapper4wrapper clearfix">
+                <div class = "wrapper4wrapperinner">
+
+                     <div class = "h1container"><h1>ჩვენ შესახებ</h1></div>
+        
+                     <div class = "inner1 clearfix">
+                         <div class = "inner1inner"></div>
+                     </div>
+
+                     <div class = "inner2">
+                        <div class = "inner2inner">
+                            <p>ტექსტი საიტის შესახებ, რომ უნდა გამოგვიგზავნონ ივენთის ლინკი და როგორ შეუძლიათ გამოყენება კიდევ რამე ტექსტი საიტის შესახებ, რომ უნდა გამოგვიგზავნონ ივენთის ლინკი და როგორ შეუძლიათ გამოყენება კიდევ რამე ბლა ბლა და ტექსტი საიტის შესახებ, რომ უნდა გამოგვიგზავნონ ივენთის ლინკი და როგორ შეუძლიათ გამოყენება.
+                            </p>
+                        </div>
+                     </div>
+                     
+                     <div class = "inner3">
+                        <a href = ""> 
+                          <div class = "inner3button">
+                              <span>ივენთის დამატება</span>
+                         </div>
+                        </a>
+                     </div>
+
+                     <div class = "inner4">
+                        <div class = "inner4inner"></div>
+                     </div>
+
+                </div>
+                <div class = "wrapper4wrapperinner2 clearfix">
+                     <div class = "h1container2"><h1>კონტაქტი</h1></div>
+                     <div class = "inner1"></div>
+                     <div class = "inner2"></div>
+
+                     <div class = "inner3">
+                       <div class = "inner3wrapper">
+                         <div class = "inner31">
+                             <form method = "POST">
+                                <input type = "text" placeholder = "სახელი">
+                             </form>
+                         </div>
+                         <div class = "inner32">
+                             <form method = "POST">
+                                <input type = "text" placeholder = "გვარი">
+                             </form>
+                         </div>
+                       </div>
+                     </div>
+
+                     <div class = "inner4 clearfix">
+                        <div class = "inner4wrapper clearfix">
+                              <div class = "inner41">
+                                 <form method = "POST">
+                                    <input type = "text" placeholder = "ტელეფონი">
+                                 </form>
+                                  </div>
+                              <div class = "inner42">
+                                 <form method = "POST">
+                                    <input type = "text" placeholder = "e-mail">
+                                 </form>
+                              </div>
+
+
+                        </div>
+                        
+                         
+                     </div>
+                     
+                     <div class = "inner5out">
+                       <div class = "inner5">
+                          <textarea cols = "70" rows = "10" placeholder = "მოგვწერეთ"></textarea>
+                       </div>
+                     </div>
+
+                     <div class = "inner6"></div>
+
+                     <div class = "inner7">
+                       <a href = "">
+                          <div class = "inner7button">
+                               <span>გაგზავნა</span>
+                          </div>
+                       </a>
+                     </div>
+                     
+                     <div class = "inner8">
+                          <div class = "inner81"></div>
+                     </div>
+                     
+                </div>
+           </div>
+
+           <div class = "addevent clearfix">
+                <div class = "addeventwrapper">
+                  <div class = "addh1"><div class = "hc"><h1>ივენთის დამატება</h1><a href = ""><img src = "images/menuclickclose.png"></a></div></div>
+
+                  <div class = "wrapperall">
+
+                        <div class = "wrapperall1wrapper clearfix">
+
+                               <div class = "wrapperall-1inner"></div>
+                               
+                               <div class = "wrapperall1inner"></div>
+
+                               <div class = "wrapperall2inner">
+                                    <form method = "POST">
+                                          <input type = "text" placeholder = "Facebook Link">
+                                    </form>
+                               </div>
+
+                               <div class = "wrapperall3inner">
+                                    <form method = "POST">
+                                          <input type = "text" placeholder = "აირჩიეთ კატეგორია">
+                                    </form>
+                               </div>
+                        </div>
+
+                        <div class = "kvedaxazi"></div>                                           
+                       
+                  </div>
+                  
+                  <a href = "">
+                     <div class = "greybutton">
+                          <span>ივენთის დამატება</span>
+                     </div>
+                  </a>
+
+                </div>
+           </div>
+      </div>
+          <script src = "js/jquery-scrollto.js"></script>
+          <script src= "js/mymain.js"></script>    
+          
+      
+   </body>
+</html>
